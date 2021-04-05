@@ -1,12 +1,16 @@
 html {
-	background: url("assets/bg.jpg");
-	background-repeat: repeat;
+	background: url("assets/bg2.png");
+	background-repeat: vertical;
     /* background-size: auto; */
-	background-size: 50%;
+	background-size: 25%;
 }
 
 body {
-	background: #087225;
+	/* background: #087225; */
+	background: url("assets/waterbg.jpg");
+	background-repeat: vertical;
+	background-size: auto;
+
 	width: 70%;
 	margin: 200px auto 200px auto;
 	color: black;
@@ -60,7 +64,9 @@ a {
 
 /* LOGO NEXT TO TEXT */
 .post-container {
-    margin: 20px 20px 0 0;
+    /* margin: 20px 20px 0 0; */
+	padding: 20px;
+	margin: 20px;
     overflow: auto
 }
 .post-thumb {
@@ -70,7 +76,11 @@ a {
     display: block
 }
 .post-content {
-    margin-left: 10px
+	background-color: aqua;
+	border-radius: 100px;
+	padding: 15px;
+	margin: 0px;
+	overflow: auto
 }
 .post-title {
 }
